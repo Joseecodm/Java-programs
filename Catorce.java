@@ -11,7 +11,7 @@ public class Catorce {
     /**
      * @param args
      *
-     * Este programa regenera el valor al cuadrado de un numero y su elevacion
+     * Este programa genera el valor al cuadrado de un numero y su elevacion
      * al cubo
      */
     
