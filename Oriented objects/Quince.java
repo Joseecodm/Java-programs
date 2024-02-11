@@ -10,6 +10,11 @@ class Quince {
 
     public static void main(String[] a) {
 
+        /*
+         * El programa escrito a continuación lee NUM enteros en un arreglo, multiplica
+         * los elementos del arreglo y visualiza el producto.
+         */
+
         final int NUM = 10;
         Scanner entrada = new Scanner(System.in);
 

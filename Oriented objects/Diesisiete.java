@@ -8,6 +8,13 @@ import java.util.Scanner;
  */
 public class Diesisiete {
 
+    /*
+     * Codificar un programa para dar entrada y posterior visualización de un
+     * arreglo bidimensional
+     * El método leer() da entrada a los elementos de la matriz que se pasa como
+     * argumento, y el método visualizar () muestra la tabla en la pantalla.
+     */
+
     /**
      * @param args the command line arguments
      */

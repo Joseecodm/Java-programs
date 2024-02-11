@@ -14,6 +14,20 @@ public class Veinte {
      */
     public static void main(String[] args) {
 
+        /*
+         * Se realizan las operaciones de añadir, eliminar, buscar y reemplazar cadenas
+         * con
+         * ArrayList.
+         * La colección estará formada por cadenas leídas del teclado; la declaración va
+         * a
+         * especificar que la colección contiene elementos String.
+         * Una vez formada la colección se elimina una cadena concreta y se reemplaza el
+         * elemento que ocupa la posición central; para realizar una búsqueda, se
+         * utiliza el método indexOf() que devuelve la posición que ocupa, o bien -1, a
+         * partir de esta posición se crea un iterador llamando al método listIterator
+         * () con el fin de recorrer y, a la vez, escribir los elementos.
+         */
+
         Scanner entrada = new Scanner(System.in);
         ArrayList<String> av = new ArrayList<String>();
         String cd;

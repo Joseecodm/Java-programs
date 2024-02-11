@@ -8,6 +8,15 @@ class Diesiocho {
 
     public static void main(String[] a) {
 
+        /*
+         * Paso de arreglos a métodos; se lee un arreglo y se escribe el producto de los
+         * elementos
+         * positivos.
+         * El número de elementos del arreglo se establece en la ejecución del programa;
+         * el parámetro del método leerArreglo() es el arreglo; la finalidad del método es
+         * dar entrada a sus valores. El parámetro del método producto () también es el
+         * arreglo; el método devuelve el producto de los elementos positivos.
+         */
         double v[];
         int n;
 

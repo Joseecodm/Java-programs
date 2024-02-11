@@ -8,6 +8,14 @@ import java.util.*;
  */
 class Racional {
 
+    /*
+     * La clase Racional agrupa las características de todo número racional:
+     * numerador y denominador; en dicha clase el método mostrar() escribe en
+     * pantalla el número racional, la clase principal crea un vector al que se
+     * añaden números racionales; a continuación, se recuperan los elementos y se
+     * escriben.
+     */
+
     private int x, y;
 
     public Racional(int _x, int _y) {
@@ -37,7 +45,6 @@ public class Catorce {
 
         }
 
-        //recuperacion de los elementos
         int k;
         k = num.size();
         for (int i = 1; i < k; i++) {

@@ -1,6 +1,7 @@
 package unidimensional;
 
 import java.util.*;
+
 /**
  *
  * @author Josee
@@ -11,12 +12,14 @@ public class Veinteyuno {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-     Scanner scanner = new Scanner(System.in);
+        // Escribir un programa que permita visualizar el triángulo de Pascal:
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese el numero de filas para el Triangulo de Pascal:");
         int numRows = scanner.nextInt();
         dibujartriangpasc(numRows);
     }
+
     public static void dibujartriangpasc(int numRows) {
         int[][] triangle = generartriangulo(numRows);
 

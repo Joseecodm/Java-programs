@@ -13,6 +13,20 @@ public class Diesinueve {
      */
     public static void main(String[] args) {
 
+        /*
+         * Se lee una lista con un máximo de 21 números enteros, a continuación, se
+         * calcula su
+         * suma y el valor máximo; la entrada de datos termina al introducir la clave -1.
+         * El programa consta del método entrada () que lee desde el teclado los
+         * elementos.
+         * del arreglo hasta que se ingresa el dato clave, devuelve el número de
+         * elementos leído,
+         * éste nunca puede ser mayor que el máximo de elementos (length); el método
+         * sumaEnteros() calcula la suma de los elementos introducidos en el arreglo, se
+         * pasan dos parámetros: el arreglo y el número de elementos.
+         * El método maximo() tiene los mismos parámetros que suma Enteros () y
+         * determina el valor máximo.
+         */
         final int Num = 21;
         int items[] = new int[Num];
         int n;
