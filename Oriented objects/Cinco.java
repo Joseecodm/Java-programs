@@ -1,4 +1,3 @@
-
 package unidimensional;
 
 import java.util.Scanner;
@@ -28,26 +27,19 @@ public class Cinco {
         System.out.print("Ingrese el número de DNI (sin la letra): ");
         int numeroDNI = scanner.nextInt();
 
-        // Llamada al método para obtener la letra
         char letraDNI = obtenerLetra(numeroDNI);
 
-        // Mostrar el DNI completo (número + letra)
         System.out.println("El DNI completo es: " + numeroDNI + letraDNI);
 
         scanner.close();
     }
 
-    // Método para obtener la letra del DNI
+
     private static char obtenerLetra(int numeroDNI) {
-        // Array de caracteres con las letras correspondientes a cada posición
+
         char[] letrasDNI = {'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'};
-
-        // Calcular el índice de la letra usando la fórmula indicada
         int indiceLetra = numeroDNI % 23;
-
-        // Devolver la letra correspondiente al índice calculado
         return letrasDNI[indiceLetra];
     }
-    
     
 }

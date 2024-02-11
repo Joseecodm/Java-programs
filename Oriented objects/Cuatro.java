@@ -1,4 +1,3 @@
-
 package unidimensional;
 
 import java.util.Scanner;
@@ -27,26 +26,20 @@ public class Cuatro {
         System.out.print("Ingrese el numero de alumnos: ");
         int numAlumnos = scanner.nextInt();
 
-        // Arrays para almacenar las calificaciones, nombres y resultados de cada alumno
         double[] calificaciones = new double[numAlumnos];
         String[] nombres = new String[numAlumnos];
         String[] resultados = new String[numAlumnos];
 
-        // Generar calificaciones aleatorias y solicitar nombres
         for (int i = 0; i < numAlumnos; i++) {
-            // Generar calificación aleatoria entre 4 y 10
+
             calificaciones[i] = 4 + Math.random() * 6;
-            
-            // Solicitar nombre del alumno
-            scanner.nextLine(); // Limpiar el buffer
+            scanner.nextLine(); 
             System.out.print("Ingrese el nombre del alumno " + (i + 1) + ": ");
             nombres[i] = scanner.nextLine();
 
-            // Calcular resultado de la calificación
             resultados[i] = obtenerResultado(calificaciones[i]);
         }
 
-        // Mostrar los resultados
         System.out.println("\nResultados:");
         for (int i = 0; i < numAlumnos; i++) {
             System.out.println("Nombre: " + nombres[i] + ", Nota: " + calificaciones[i] + ", Resultado: " + resultados[i]);
@@ -55,7 +48,6 @@ public class Cuatro {
         scanner.close();
     }
 
-    // Método para obtener el resultado de la calificación
     private static String obtenerResultado(double calificacion) {
         if (calificacion >= 4 && calificacion < 6) {
             return "Insuficiente";

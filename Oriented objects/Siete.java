@@ -1,4 +1,3 @@
-
 package unidimensional;
 
 import java.util.Arrays;
@@ -24,15 +23,12 @@ public class Siete {
     
         Scanner scanner = new Scanner(System.in);
 
-        // Crear un arreglo unidimensional de números enteros y ordenarlo
         int[] arreglo = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
         Arrays.sort(arreglo);
 
-        // Solicitar al usuario que ingrese un número
         System.out.print("Ingrese un número para buscar en el arreglo: ");
         int numeroBuscar = scanner.nextInt();
 
-        // Utilizar el método binarySearch para buscar el número en el arreglo
         int indiceEncontrado = Arrays.binarySearch(arreglo, numeroBuscar);
 
         // Mostrar el resultado
@@ -41,8 +37,6 @@ public class Siete {
         } else {
             System.out.println("El número " + numeroBuscar + " no se encuentra en el arreglo.");
         }
-
-        scanner.close();
   
     }
     
